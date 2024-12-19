@@ -1,12 +1,11 @@
-Subject: Follow-up on Salary Increment Discussion
-
-Dear [Chapter Lead/Vice President's Name],
-
-I hope this message finds you well. I wanted to kindly remind you about our previous discussion regarding my salary increment. During our last conversation, you mentioned that we could revisit the topic starting from December onward.
-
-As there was no increment last year, I would appreciate it if we could reconsider the matter at your earliest convenience. Please let me know if you need any additional information from my side.
-
-Thank you very much for your time and support.
-
-Best regards,
-Muhammad Ali Hassan
+Sl No 	Priority 	Comments	Status	User stories
+1	Insurance		Solution & Design : Done	ID : 3518, 3520, 3521, 11890, 3522, 3523, 3524, 3525, 3527, 3526, 12279, 12252, 12258, 12261,
+2	Convenience Fee	Display of AED 0 in UI  doesn't require solution but in the actual scenario , the solution is needed 	Design: Done, Solution : Pending	ID : 11941, 12022
+3	I-Frame - Webview		Solution : Pending, Design : Done	ID : 13304, 13306
+4	MPGS Tokenization		Solution : Pending , Design : N/A	ID : 12454
+5	Nas current due		Design: Done, Solution : N/A	ID : 10272
+6	Division field in RAKA report		Pending	ID : 11831
+7	Raka Partial payment 		Solution & Design : N/A	ID : 8748
+8	Student upload template fee 		Pending 	ID : 11418
+9	Autofill 		Solution : Pending , Design : N/A	ID : 5938
+10	QR file for Amex Apple Pay transactions	Yet to be prioritized	Pending 	ID : 13303
