@@ -9,7 +9,7 @@ Sl No 	Priority 	Comments	Status	User stories
 8	Student upload template fee 		Pending 	ID : 11418
 9	Autofill 		Solution : Pending , Design : N/A	ID : 5938
 10	QR file for Amex Apple Pay transactions	Yet to be prioritized	Pending 	ID : 13303
-I hope you’re doing well. Let’s proceed with deploying the changes in the convenience fee email templates without considering whether it’s a blocker or not. It’s a straightforward update, and completing it will streamline the process.
+
 Identifier: 00008140-001E29E03E07001C
 conveniencefeecurrencytype AED
 conveniencefee 0.00
