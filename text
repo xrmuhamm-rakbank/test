@@ -18,10 +18,9 @@ https://www.figma.com/design/DDBvIxz6upi8MZt0HCdvP1/Skiply-for-Copy-Team-UPD?nod
 
 Hi Suhas,
 
-As part of the ongoing integration of a third-party service through a WebView in Skiply, I’ve outlined a few key scenarios where your architectural guidance is required. Below are the areas needing clarification for User Story #13304:
+I have created a sample project based on the new user story (14678) for both iOS and Android. The project includes a url file where you can easily update it to your desired URL for testing.
 
-Authentication and Continuity
-Payment Integration
-Confirmation and Callback
-Error Handling
-These points are integral to User Story #13304, and I look forward to your insights to help us proceed effectively.
+You can check the project at the following link: WebView Inline HTML Project.
+
+Let me know your thoughts or feedback.
+https://snack.expo.dev/@rakmobility78/webview-inline-html
