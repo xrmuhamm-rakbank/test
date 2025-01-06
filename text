@@ -16,38 +16,13 @@ conveniencefee 0.00
 https://www.figma.com/design/DDBvIxz6upi8MZt0HCdvP1/Skiply-for-Copy-Team-UPD?node-id=5122-42327&p=f&m=dev
 
 
-Subject: Clarification Needed on Third-Party WebView Integration Scenarios
-
 Hi Suhas,
 
-I hope you are doing well. As part of the ongoing integration of a third-party service through a WebView in Skiply, I’ve outlined a few user story scenarios where I require your architectural guidance. Below are the key details and clarifications needed for User Story #13304:
+As part of the ongoing integration of a third-party service through a WebView in Skiply, I’ve outlined a few user story scenarios where I require your architectural solution. Below are the clarifications needed for User Story #13304:
 
-1. Payment Integration
-Scenario:
-Given I complete the required process through the third-party WebView, when I proceed to payment, then I should be redirected to Skiply’s checkout and payment gateway path.
+1. Authentication and Continuity
+2. Payment Integration
+3. Confirmation and Callback
+4. Error Handling
 
-Clarification Needed:
-
-What is the most efficient way to implement the redirection to Skiply’s payment gateway?
-2. Confirmation and Callback
-Scenario:
-Given I complete the required process and payment successfully, when the transaction is finalized, then a confirmation message should be displayed in Skiply as a pop-up, and a receipt should be available in Skiply.
-
-Clarification Needed:
-
-Should Skiply provide a webhook or callback endpoint for the third-party service to notify Skiply of payment completion?
-3. Error Handling
-Scenario:
-Given an error occurs while using the third-party WebView (e.g., timeout, technical issue), when the error is encountered, then an appropriate error message should be displayed, and I should have an option to retry.
-
-Clarification Needed:
-
-What mechanisms should be in place to capture errors within the WebView (e.g., event listeners or API responses)?
-4. Exit Option
-Scenario:
-Given I am in the third-party WebView, when I decide to return to the main Skiply dashboard, then I should have a visible "Back to Dashboard" or "Exit" button that closes the WebView and navigates me back to Skiply without losing my session.
-
-Clarification Needed:
-
-How can session persistence be maintained in Skiply during and after WebView closure (e.g., via cookies or local storage)?
-These scenarios are part of User Story #13304. I look forward to your insights on these points to proceed effectively.
+These points are part of User Story #13304. I look forward to your insights on these points to proceed effectively.
