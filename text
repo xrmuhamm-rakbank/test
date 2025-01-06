@@ -18,11 +18,10 @@ https://www.figma.com/design/DDBvIxz6upi8MZt0HCdvP1/Skiply-for-Copy-Team-UPD?nod
 
 Hi Suhas,
 
-As part of the ongoing integration of a third-party service through a WebView in Skiply, I’ve outlined a few user story scenarios where I require your architectural solution. Below are the clarifications needed for User Story #13304:
+As part of the ongoing integration of a third-party service through a WebView in Skiply, I’ve outlined a few key scenarios where your architectural guidance is required. Below are the areas needing clarification for User Story #13304:
 
-1. Authentication and Continuity
-2. Payment Integration
-3. Confirmation and Callback
-4. Error Handling
-
-These points are part of User Story #13304. I look forward to your insights on these points to proceed effectively.
+Authentication and Continuity
+Payment Integration
+Confirmation and Callback
+Error Handling
+These points are integral to User Story #13304, and I look forward to your insights to help us proceed effectively.
