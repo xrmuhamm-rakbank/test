@@ -15,3 +15,23 @@ conveniencefeecurrencytype AED
 conveniencefee 0.00
 https://www.figma.com/design/DDBvIxz6upi8MZt0HCdvP1/Skiply-for-Copy-Team-UPD?node-id=5122-42327&p=f&m=dev
 
+4. Payment Integration
+
+Given I complete the visa application through the Atlys iframe,
+When I proceed to payment,
+Then I should be redirected to Skiply’s checkout and payment gateway path.
+5. Confirmation and Callback
+
+Given I complete my visa application and payment successfully,
+When the transaction is finalized,
+Then a confirmation message should be displayed in Skiply as the pop-up and a receipt should be available in Skiply.
+6. Error Handling
+
+Given an error occurs while using the Atlys Visa Services iframe (e.g., timeout, technical issue),
+When the error is encountered,
+Then an appropriate error message should be displayed, and I should have an option to retry.
+7. Exit Option
+
+Given I am in the Atlys Visa Services iframe,
+When I decide to return to the main Skiply dashboard,
+Then I should have a visible "Back to Dashboard" or "Exit" button that closes the iframe and navigates me back to Skiply without losing my session.
