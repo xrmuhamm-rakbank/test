@@ -15,20 +15,6 @@ conveniencefeecurrencytype AED
 conveniencefee 0.00
 https://www.figma.com/design/DDBvIxz6upi8MZt0HCdvP1/Skiply-for-Copy-Team-UPD?node-id=5122-42327&p=f&m=dev
 
+http://json.parser.online.fr/
 
-•	Study Abroad
-o	Student.com
-o	UniversityLiving.com
-o	OneVasco.com
-•	Visa Services
-o	Atlys.com
-•	Insurance
-o	Protego.ae
-securemyscholarship.com +
-Hi Suhas,
-
-For the third point, I wanted to clarify that this is a sample icon. It will be replaced with a reload icon that will reload the website.
-
-I have also attached a screenshot for your reference.
-
-Best regards,
+{"status":"SUCCESS","eppProvider":"visa","transactionAmount":300000,"currency":"AED","monthPlan":"VISTest3MonthAED","monthlyInstallmentAmount":100000,"numberOfInstallments":3,"monthlyRate":null,"selectedEppDetails":{"name":"VISTest3MonthAED","type":"ISSUER_DEFAULT","numberOfInstallments":3,"installmentFrequency":"MONTHLY","termsAndConditions":[{"url":"https://www.visa.com","version":2,"text":"This is a sample text to describe the terms and conditions that govern the Visa Installment services.","languageCode":"eng"},{"url":"https://www.visa.com","version":2,"text":"هذا نص نموذجي لوصف الشروط والأحكام التي تحكم خدمات أقساط التأشيرة.","languageCode":"ara"}],"costInfo":{"annualPercentageRate":0,"feeInfo":[{"type":"CONSUMER","ratePercentage":250,"flatFee":5000,"monthlyRatePercentage":83.33},{"type":"MERCHANT_FUNDING","ratePercentage":0,"flatFee":0,"monthlyRatePercentage":null},{"type":"MERCHANT_SERVICE","ratePercentage":10,"flatFee":null,"monthlyRatePercentage":null}],"totalPlanCost":312500,"totalFees":12500,"totalUpfrontFees":0,"totalRecurringFees":12500,"currency":"AED","firstInstallment":{"amount":100000,"upfrontFee":0,"installmentFee":4167,"totalAmount":104167},"lastInstallment":{"amount":100000,"upfrontFee":null,"installmentFee":4166,"totalAmount":104166}},"fundedBy":["CONSUMER"],"disclosure":null,"promotionInfo":null,"vPlanID":"a57d2cfc-fed2-395d-5784-166cb037c301","vPlanIDRef":"00000000CA"},"eppResponse":{"transactionCurrency":"AED","transactionAmount":"300000","transactionId":"297936339865579","rrn":"500809034595","createdAt":"2025-01-08T09:21:16.629Z","accountReference":"4761080127842022","providerName":"visa","providerResponse":{"createdDateTime":"2025-01-08T09:21:17Z","transactionInfo":{"dateTime":"2025-01-08T09:21:16.629Z","transactionAmount":300000,"currency":"AED","vTransactionID":"297936339865579"},"paymentAccountReference":"V0010013022320223698389178905","vPlanAcceptanceID":"49089f19-7c18-bcbc-5185-10baa8189501","vPlanID":"a57d2cfc-fed2-395d-5784-166cb037c301","vPlanIDRef":"00000000CA"},"monthPlan":"VISTest3MonthAED","monthlyInstallmentAmount":100000,"numberOfInstallments":3,"planCost":312500,"processingFee":12500},"planCost":312500,"processingFee":12500,"planId":"a57d2cfc-fed2-395d-5784-166cb037c301","planReferenceId":null}
