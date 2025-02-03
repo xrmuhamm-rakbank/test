@@ -79,3 +79,14 @@ Protego:
 URL: https://protego.ae
 
 Please review the updated configuration and let me know if any changes are required
+
+
+div
+id="root-ul"
+data-widgetId="YOUR_WIDGET_ID"
+data-city="london"
+data-primaryColor="#111"
+data-fontColor="#333"
+data-iconColor="#111"
+/>
+<script src="https://d3hk5c2fo9op52.cloudfront.net/widget.js"></script>
