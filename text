@@ -93,3 +93,557 @@ data-iconColor="#111"
 
 https://snack.expo.dev/@rakmobility78/webview-inline-html
 https://snack.expo.dev/@rakmobility78/webview-inline-html?platform=ios
+
+
+
+
+
+
+
+
+
+
+
+export type CreditCardsFeatureItem = {
+  description: string;
+  description_ar: string;
+  icon: string;
+};
+
+export type CreditCardsCategory = {
+  key: string;
+  id: string;
+  title: string;
+  title_ar: string;
+  cardType: string;
+  cardIcon: any;
+  termsAndConditions: string;
+  digitalLink: string;
+  features: CreditCardsFeatureItem[];
+};
+
+const creditCardsConfig: CreditCardsCategory[] = [
+  {
+    key: 'titanium',
+    id: '1',
+    title: 'Titanium Credit Card',
+    title_ar: 'Titanium Credit Card',
+    cardType: 'titanium',
+    cardIcon: titanium,
+    termsAndConditions: '',
+    digitalLink: 'https://apps.rakbank.ae/l6OV/8llh6xyy',
+    features: [
+      {
+        description: 'Get 5% cashback on all supermarket and dining purchases',
+        description_ar:
+          'Get 5% cashback on all supermarket and dining purchases',
+        icon: 'purchase',
+      },
+      {
+        description: 'Get up to 2% cashback on all other purchases',
+        description_ar: 'Get up to 2% cashback on all other purchases',
+        icon: 'cashback',
+      },
+      {
+        description: 'Enjoy a 0% Easy Payment Plan at select merchants',
+        description_ar: 'Enjoy a 0% Easy Payment Plan at select merchants',
+        icon: 'easyPayments',
+      },
+      {
+        description:
+          'Protect purchases against loss and damage with purchase protection',
+        description_ar:
+          'Protect purchases against loss and damage with purchase protection',
+        icon: 'protection',
+      },
+      {
+        description: 'Enjoy no annual fee for life',
+        description_ar: 'Enjoy no annual fee for life',
+        icon: 'annualFee',
+      },
+      {
+        description: '0% EPP with Zero processing fee',
+        description_ar: '0% EPP with Zero processing fee',
+        icon: 'processingFee',
+      },
+    ],
+  },
+  {
+    key: 'world',
+    id: '2',
+    title: 'World Credit Card',
+    title_ar: 'World Credit Card',
+    cardType: 'world',
+    cardIcon: World,
+    termsAndConditions: '',
+    digitalLink: 'https://apps.rakbank.ae/l6OV/8llh6xyy',
+    features: [
+      {
+        description:
+          'Get up to 10% cashback on travel and supermarket purchases',
+        description_ar:
+          'Get up to 10% cashback on travel and supermarket purchases',
+        icon: 'purchase',
+      },
+      {
+        description: '50% discount at VOX Cinemas',
+        description_ar: '50% discount at VOX Cinemas',
+        icon: 'movie',
+      },
+      {
+        description:
+          'Enjoy unlimited access to airport lounges around the world',
+        description_ar:
+          'Enjoy unlimited access to airport lounges around the world',
+        icon: 'fly',
+      },
+      {
+        description: 'Get complimentary airport transfers',
+        description_ar: 'Get complimentary airport transfers',
+        icon: 'airportTransfer',
+      },
+      {
+        description: 'Get free travel medical insurance',
+        description_ar: 'Get free travel medical insurance',
+        icon: 'medicine',
+      },
+      {
+        description: '0% EPP with Zero processing fee',
+        description_ar: '0% EPP with Zero processing fee',
+        icon: 'processingFee',
+      },
+    ],
+  },
+  {
+    key: 'red',
+    id: '3',
+    title: 'Red Credit Card',
+    title_ar: 'Red Credit Card',
+    cardType: 'red',
+    cardIcon: Red,
+    termsAndConditions: '',
+    digitalLink: 'https://apps.rakbank.ae/l6OV/8llh6xyy',
+    features: [
+      {
+        description: 'Get up to 1.5% cashback on all purchases',
+        description_ar: 'Get up to 1.5% cashback on all purchases',
+        icon: 'cashback',
+      },
+      {
+        description: 'Get one free international remittance every month',
+        description_ar: 'Get one free international remittance every month',
+        icon: 'remittance',
+      },
+      {
+        description:
+          'Enjoy a 0% Easy Payment Plan on your purchases at select merchants',
+        description_ar:
+          'Enjoy a 0% Easy Payment Plan on your purchases at select merchants',
+        icon: 'easyPayments',
+      },
+      {
+        description: 'Enjoy no annual fee for life',
+        description_ar: 'Enjoy no annual fee for life',
+        icon: 'annualFee',
+      },
+      {
+        description: '0% EPP with Zero processing fee',
+        description_ar: '0% EPP with Zero processing fee',
+        icon: 'processingFee',
+      },
+    ],
+  },
+  {
+    key: 'emiratesSkywards',
+    id: '4',
+    title: 'Emirates Skywards World Elite',
+    title_ar: 'Emirates Skywards World Elite',
+    cardType: 'emiratesSkywards',
+    cardIcon: SkyWards,
+    termsAndConditions: '',
+    digitalLink: 'https://apps.rakbank.ae/l6OV/8llh6xyy',
+    features: [
+      {
+        description: 'Earn up to 40,000 Skywards Miles per month',
+        description_ar: 'Earn up to 40,000 Skywards Miles per month',
+        icon: 'rewards',
+      },
+      {
+        description: 'Become an Emirates Skywards Silver member',
+        description_ar: 'Become an Emirates Skywards Silver member',
+        icon: 'membership',
+      },
+      {
+        description:
+          'Unlock unlimited access to airport lounges around the world',
+        description_ar:
+          'Unlock unlimited access to airport lounges around the world',
+        icon: 'world',
+      },
+      {
+        description: 'Play a complimentary round of golf twice a month',
+        description_ar: 'Play a complimentary round of golf twice a month',
+        icon: 'gulf',
+      },
+      {
+        description: 'Get free airport transfers',
+        description_ar: 'Get free airport transfers',
+        icon: 'fly',
+      },
+      {
+        description: '0% EPP with Zero processing fee',
+        description_ar: '0% EPP with Zero processing fee',
+        icon: 'processingFee',
+      },
+    ],
+  },
+  {
+    key: 'highFlyer',
+    id: '5',
+    title: 'HighFlyer Credit Card',
+    title_ar: 'HighFlyer Credit Card',
+    cardType: 'highFlyer',
+    cardIcon: HighFlyer,
+    termsAndConditions: '',
+    digitalLink: 'https://apps.rakbank.ae/l6OV/8llh6xyy',
+    features: [
+      {
+        description: 'Earn up to 350,000 RAKrewards on your spends',
+        description_ar: 'Earn up to 350,000 RAKrewards on your spends',
+        icon: 'rewards',
+      },
+      {
+        description: 'Unlock unlimited access to select airport lounges',
+        description_ar: 'Unlock unlimited access to select airport lounges',
+        icon: 'fly',
+      },
+      {
+        description:
+          'Protect purchases against loss and damage with purchase protection',
+        description_ar:
+          'Protect purchases against loss and damage with purchase protection',
+        icon: 'protection',
+      },
+      {
+        description: 'Enjoy a 0% Easy Payment Plan at select merchants',
+        description_ar: 'Enjoy a 0% Easy Payment Plan at select merchants',
+        icon: 'easyPayments',
+      },
+      {
+        description: '0% EPP with Zero processing fee',
+        description_ar: '0% EPP with Zero processing fee',
+        icon: 'processingFee',
+      },
+    ],
+  },
+  {
+    key: 'watani',
+    id: '6',
+    title: 'Watani Credit Card',
+    title_ar: 'Watani Credit Card',
+    cardType: 'watani',
+    cardIcon: Watani,
+    termsAndConditions: '',
+    digitalLink: 'https://apps.rakbank.ae/l6OV/8llh6xyy',
+    features: [
+      {
+        description: 'Enjoy 0 annual fee for lifetime',
+        description_ar: 'Enjoy 0 annual fee for lifetime',
+        icon: 'annualFee',
+      },
+      {
+        description: '100% cashback on Salik and DARB',
+        description_ar: '100% cashback on Salik and DARB',
+        icon: 'transportaion',
+      },
+      {
+        description:
+          'Discounted RAKrewards for flight bookings using the RAKrewards portal',
+        description_ar:
+          'Discounted RAKrewards for flight bookings using the RAKrewards portal',
+        icon: 'bookings',
+      },
+      {
+        description:
+          'Free Premium subscription at Playtomic and discounted games',
+        description_ar:
+          'Free Premium subscription at Playtomic and discounted games',
+        icon: 'games',
+      },
+      {
+        description: 'Save money with exclusive offers',
+        description_ar: 'Save money with exclusive offers',
+        icon: 'exclusiveOffers',
+      },
+      {
+        description: '50,000 RAKrewards welcome bonus',
+        description_ar: '50,000 RAKrewards welcome bonus',
+        icon: 'rewards',
+      },
+      {
+        description: 'Special rates on card services',
+        description_ar: 'Special rates on card services',
+        icon: 'creditcard',
+      },
+      {
+        description: '0% EPP with Zero processing fee',
+        description_ar: '0% EPP with Zero processing fee',
+        icon: 'processingFee',
+      },
+    ],
+  },
+];
+
+export default creditCardsConfig;
+
+
+export type EducationalLoanCategory = {
+  key: string;
+  id: string;
+  title: string;
+  title_ar: string;
+  termsAndConditions: string;
+  features: CreditCardsFeatureItem[];
+  cardIcon: any;
+};
+
+const educationalLoanConfig: EducationalLoanCategory[] = [
+  {
+    key: 'educationalLoan',
+    id: '1',
+    title: 'Secure your child’s future',
+    title_ar: 'Secure your child’s future',
+    termsAndConditions: '',
+    cardIcon: EducationalLoan,
+    features: [
+      {
+        description: 'Open to salaried individuals earning at least AED 5,000 monthly.',
+        description_ar:
+          'Open to salaried individuals earning at least AED 5,000 monthly.',
+        icon: 'earnings',
+      },
+      {
+        description: 'Interest rates start at 4.89% p.a. for UAE Nationals and 5.39% p.a. for expats, with a 0.10% reduction based on profile.',
+        description_ar: 'Interest rates start at 4.89% p.a. for UAE Nationals and 5.39% p.a. for expats, with a 0.10% reduction based on profile.',
+        icon: 'rates',
+      },
+      {
+        description: 'No processing fee for applications via the Skiply app (valid until 28th Feb 2025).',
+        description_ar: 'No processing fee for applications via the Skiply app (valid until 28th Feb 2025).',
+        icon: 'mobile',
+      },
+      {
+        description:
+          'Loan amounts up to AED 300,000.',
+        description_ar:
+          'Loan amounts up to AED 300,000.',
+        icon: 'processingFee',
+      },
+      {
+        description: 'Flexible repayment terms up to 48 months.',
+        description_ar: 'Flexible repayment terms up to 48 months.',
+        icon: 'flexiblePayments',
+      },
+      {
+        description: 'Simplified process with personal loan officer assistance.',
+        description_ar: 'Simplified process with personal loan officer assistance.',
+        icon: 'simplifiedBanking',
+      },
+      {
+        description: 'Preferential exchange rates for remittances to foreign institutions.',
+        description_ar: 'Preferential exchange rates for remittances to foreign institutions.',
+        icon: 'exchangeRemittance',
+      },
+      {
+        description: 'Salary transfer to RAKBANK required',
+        description_ar: 'Salary transfer to RAKBANK required',
+        icon: 'bankaccount'
+        },
+        {
+        description: 'Two EMI deferrals allowed per year.',
+        description_ar: 'Two EMI deferrals allowed per year.',
+        icon: 'emiDeferrals',
+        },
+        {
+        description: 'EMI payment holidays: up to 90 days for expats and up to 180 days for UAE Nationals.',
+        description_ar: 'EMI payment holidays: up to 90 days for expats and up to 180 days for UAE Nationals.',
+        icon: 'increaseTime',
+        },
+        
+    ],
+  },
+];
+
+export default educationalLoanConfig;
+
+export type ServiceItem = {
+  title: string;
+  title_ar: string;
+  description: string;
+  description_ar: string;
+  icon: FunctionComponentElement<SvgProps>;
+  url: string;
+};
+
+export type ServiceCategory = {
+  key: string;
+  id: string;
+  title: string;
+  title_ar: string;
+  splashScreen: FunctionComponentElement<SvgProps>;
+  list: ServiceItem[];
+};
+
+const servicesConfig: Record<string, ServiceCategory> = {
+  securemyscholarship: {
+    key: 'secureMyScholarship',
+    id: '1',
+    title: 'Secure my scholarship',
+    title_ar: 'تأمين منحة دراسية لي',
+    splashScreen: React.createElement(SecureMyScholarshipSplash),
+    list: [
+      {
+        title: 'SecureMyScholarship',
+        title_ar: 'SecureMyScholarship',
+        description:
+          'Guaranteed scholarships to reduce tuition costs and secure access to quality education',
+        description_ar:
+          'Guaranteed scholarships to reduce tuition costs and secure access to quality education',
+        icon: React.createElement(SecureMyScholarshipIcon),
+        url: 'https://www.securemyscholarship.com/?utm_source=WebView&utm_medium=Referral&utm_campaign=Skiply',
+      },
+    ],
+  },
+  accommodation: {
+    key: 'accommodation',
+    id: '2',
+    title: 'Accommodation',
+    title_ar: 'الإقامة',
+    splashScreen: React.createElement(AccommodationSplash),
+    list: [
+      {
+        title: 'University Living',
+        title_ar: 'University Living',
+        description:
+          'Financial protection and savings for a child’s education, securing their future even in unforeseen circumstances',
+        description_ar:
+          'Financial protection and savings for a child’s education, securing their future even in unforeseen circumstances',
+        icon: React.createElement(UniversityLivingIcon),
+        url: 'https://www.universityliving.com',
+      },
+      {
+        title: 'Student.com',
+        title_ar: 'Student.com',
+        description:
+          'Financial protection and savings for a child’s education, securing their future even in unforeseen circumstances',
+        description_ar:
+          'Financial protection and savings for a child’s education, securing their future even in unforeseen circumstances',
+        icon: React.createElement(StudentDotComIcon),
+        url: 'https://www.student.com',
+      },
+    ],
+  },
+  visa: {
+    key: 'visa',
+    id: '3',
+    title: 'Visa',
+    title_ar: 'Visa',
+    splashScreen: React.createElement(VisaSplash),
+    list: [
+      {
+        title: 'Atlys',
+        title_ar: 'Atlys',
+        description:
+          'Financial protection and savings for a child’s education, securing their future even in unforeseen circumstances',
+        description_ar:
+          'Financial protection and savings for a child’s education, securing their future even in unforeseen circumstances',
+        icon: React.createElement(AtlysIcon),
+        url: 'https://www.atlys.com',
+      },
+      {
+        title: 'OneVasco',
+        title_ar: 'OneVasco',
+        description:
+          'Financial protection and savings for a child’s education, securing their future even in unforeseen circumstances',
+        description_ar:
+          'Financial protection and savings for a child’s education, securing their future even in unforeseen circumstances',
+        icon: React.createElement(OneVascoIcon),
+        url: 'https://www.onevasco.com',
+      },
+    ],
+  },
+  payfees: {
+    key: 'payFees',
+    id: '4',
+    title: 'PayFees',
+    title_ar: 'PayFees',
+    splashScreen: React.createElement(PayFeesSplash),
+    list: [
+      {
+        title: 'Flywire',
+        title_ar: 'Flywire',
+        description:
+          'Flywire’s next-gen payments platform, proprietary global payment network and vertical-specific software handle all your payments challenges, so you can focus on your business.',
+        description_ar:
+          'Flywire’s next-gen payments platform, proprietary global payment network and vertical-specific software handle all your payments challenges, so you can focus on your business.',
+        icon: React.createElement(FlywireIcon),
+        url: 'https://www.flywire.com',
+      },
+    ],
+  },
+  insurance: {
+    key: 'insurance',
+    id: '5',
+    title: 'Insurance',
+    title_ar: 'التأمين',
+    splashScreen: React.createElement(InsuranceSplash),
+    list: [
+      {
+        title: 'Protego',
+        title_ar: 'Protego',
+        description:
+          'Instant Coverage. Get covered, anytime, anywhere with our simple digital platform.',
+        description_ar:
+          'Instant Coverage. Get covered, anytime, anywhere with our simple digital platform.',
+        icon: React.createElement(protegoIcon),
+        url: 'https://protego.ae',
+      },
+    ],
+  },
+};
+
+export default servicesConfig;
+
+
+
+Subject: Implementation of Hardcoded JSON for Services & Firebase Events
+
+Dear Team,
+
+I hope you all are doing well.
+
+Currently, in our mobile app, we are using a hardcoded JSON configuration for service categories and their respective details. This JSON includes titles, descriptions, icons, splash screens, and URLs for different services. Ideally, the recommended approach would be to host this JSON on the backend, allowing for dynamic updates. However, as a quick approach, we are using this hardcoded version within the app for now.
+
+Additionally, please note that there is no DP (display picture) change happening from the backend. We are simply utilizing the URLs present in the JSON and loading them via WebView in the application.
+
+Firebase Events Triggered in the App
+We are currently logging the following events on Firebase Analytics:
+
+Screen Tracking Event:
+
+js
+Copy
+Edit
+logEvent(screenName?.screen, { ...screenName });
+This logs the screen name when a user navigates to a particular section of the app.
+Service Selection Event:
+
+js
+Copy
+Edit
+logEvent('selected_service', {
+   category: categoryData.title,
+   url: item.url,
+});
+This event is triggered when a user selects a service, capturing the category title and service URL.
+Please let me know if you have any questions or need further clarification.

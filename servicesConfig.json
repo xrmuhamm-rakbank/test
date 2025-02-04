@@ -1,0 +1,157 @@
+import React, { FunctionComponentElement } from 'react';
+import { SvgProps } from 'react-native-svg';
+
+import SecureMyScholarshipIcon from '@/assets/images/services/secureMyScholarship/secureMyScholarship.svg';
+import SecureMyScholarshipSplash from '@/assets/images/services/secureMyScholarship/secure-my-scholarship-splash.svg';
+
+import FlywireIcon from '@/assets/images/services/payFees/flywire.svg';
+import PayFeesSplash from '@/assets/images/services/payFees/payfee-splash.svg';
+
+import protegoIcon from '@/assets/images/services/insurance/protego.svg';
+import InsuranceSplash from '@/assets/images/services/insurance/insurance-splash.svg';
+
+import StudentDotComIcon from '@/assets/images/services/accommodation/student-dot-com.svg';
+import UniversityLivingIcon from '@/assets/images/services/accommodation/university-living.svg';
+import AccommodationSplash from '@/assets/images/services/accommodation/accommodation-splash.svg';
+
+import AtlysIcon from '@/assets/images/services/visa/atlys.svg';
+import OneVascoIcon from '@/assets/images/services/visa/one-vasco.svg';
+import VisaSplash from '@/assets/images/services/visa/visa-splash.svg';
+
+export type ServiceItem = {
+  title: string;
+  title_ar: string;
+  description: string;
+  description_ar: string;
+  icon: FunctionComponentElement<SvgProps>;
+  url: string;
+};
+
+export type ServiceCategory = {
+  key: string;
+  id: string;
+  title: string;
+  title_ar: string;
+  splashScreen: FunctionComponentElement<SvgProps>;
+  list: ServiceItem[];
+};
+
+const servicesConfig: Record<string, ServiceCategory> = {
+  securemyscholarship: {
+    key: 'secureMyScholarship',
+    id: '1',
+    title: 'Secure my scholarship',
+    title_ar: 'تأمين منحة دراسية لي',
+    splashScreen: React.createElement(SecureMyScholarshipSplash),
+    list: [
+      {
+        title: 'SecureMyScholarship',
+        title_ar: 'SecureMyScholarship',
+        description:
+          'Guaranteed scholarships to reduce tuition costs and secure access to quality education',
+        description_ar:
+          'Guaranteed scholarships to reduce tuition costs and secure access to quality education',
+        icon: React.createElement(SecureMyScholarshipIcon),
+        url: 'https://www.securemyscholarship.com/?utm_source=WebView&utm_medium=Referral&utm_campaign=Skiply',
+      },
+    ],
+  },
+  accommodation: {
+    key: 'accommodation',
+    id: '2',
+    title: 'Accommodation',
+    title_ar: 'الإقامة',
+    splashScreen: React.createElement(AccommodationSplash),
+    list: [
+      {
+        title: 'University Living',
+        title_ar: 'University Living',
+        description:
+          'Financial protection and savings for a child’s education, securing their future even in unforeseen circumstances',
+        description_ar:
+          'Financial protection and savings for a child’s education, securing their future even in unforeseen circumstances',
+        icon: React.createElement(UniversityLivingIcon),
+        url: 'https://www.universityliving.com',
+      },
+      {
+        title: 'Student.com',
+        title_ar: 'Student.com',
+        description:
+          'Financial protection and savings for a child’s education, securing their future even in unforeseen circumstances',
+        description_ar:
+          'Financial protection and savings for a child’s education, securing their future even in unforeseen circumstances',
+        icon: React.createElement(StudentDotComIcon),
+        url: 'https://www.student.com',
+      },
+    ],
+  },
+  visa: {
+    key: 'visa',
+    id: '3',
+    title: 'Visa',
+    title_ar: 'Visa',
+    splashScreen: React.createElement(VisaSplash),
+    list: [
+      {
+        title: 'Atlys',
+        title_ar: 'Atlys',
+        description:
+          'Financial protection and savings for a child’s education, securing their future even in unforeseen circumstances',
+        description_ar:
+          'Financial protection and savings for a child’s education, securing their future even in unforeseen circumstances',
+        icon: React.createElement(AtlysIcon),
+        url: 'https://www.atlys.com',
+      },
+      {
+        title: 'OneVasco',
+        title_ar: 'OneVasco',
+        description:
+          'Financial protection and savings for a child’s education, securing their future even in unforeseen circumstances',
+        description_ar:
+          'Financial protection and savings for a child’s education, securing their future even in unforeseen circumstances',
+        icon: React.createElement(OneVascoIcon),
+        url: 'https://www.onevasco.com',
+      },
+    ],
+  },
+  payfees: {
+    key: 'payFees',
+    id: '4',
+    title: 'PayFees',
+    title_ar: 'PayFees',
+    splashScreen: React.createElement(PayFeesSplash),
+    list: [
+      {
+        title: 'Flywire',
+        title_ar: 'Flywire',
+        description:
+          'Flywire’s next-gen payments platform, proprietary global payment network and vertical-specific software handle all your payments challenges, so you can focus on your business.',
+        description_ar:
+          'Flywire’s next-gen payments platform, proprietary global payment network and vertical-specific software handle all your payments challenges, so you can focus on your business.',
+        icon: React.createElement(FlywireIcon),
+        url: 'https://www.flywire.com',
+      },
+    ],
+  },
+  insurance: {
+    key: 'insurance',
+    id: '5',
+    title: 'Insurance',
+    title_ar: 'التأمين',
+    splashScreen: React.createElement(InsuranceSplash),
+    list: [
+      {
+        title: 'Protego',
+        title_ar: 'Protego',
+        description:
+          'Instant Coverage. Get covered, anytime, anywhere with our simple digital platform.',
+        description_ar:
+          'Instant Coverage. Get covered, anytime, anywhere with our simple digital platform.',
+        icon: React.createElement(protegoIcon),
+        url: 'https://protego.ae',
+      },
+    ],
+  },
+};
+
+export default servicesConfig;
