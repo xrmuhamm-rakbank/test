@@ -655,4 +655,14 @@ Build Number: 135011
 
 Items to Test:
 
-All sprint items
+Please find below the testing scope for Build 135011:
+
+Items to Test:
+✅ All sprint items, including Cross-Sell and Study Abroad features
+✅ Firebase Deep Link Defect verification
+✅ Change in digit length: Update from 5-digit to 6-digit
+✅ Recurring Payment Update Defect validation
+
+Note: All hardcoded JSONs have been moved to the backend. Data is now being fetched via API, so ensure thorough testing of API responses.
+
+Please prioritize and report any critical issues.
