@@ -666,3 +666,10 @@ Items to Test:
 Note: All hardcoded JSONs have been moved to the backend. Data is now being fetched via API, so ensure thorough testing of API responses.
 
 Please prioritize and report any critical issues.
+
+
+I explored alternatives but couldn’t complete the implementation due to adhoc tasks this sprint. Azure Pipeline already has jobs set up; we just need to create a new task to proceed. I've also asked Nishan for Apple and Android test builds.
+
+Most likely, I’ll come up with a plan in the next sprint.
+
+Thanks!
