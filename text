@@ -673,3 +673,14 @@ I explored alternatives but couldn’t complete the implementation due to adhoc 
 Most likely, I’ll come up with a plan in the next sprint.
 
 Thanks!
+
+
+
+Hi Mr. Kumar,
+
+Could you please review the log we have from Visa? Also, kindly check the email—I’m looping you in.
+
+Let me know if you need any further details.
+
+
+(annualPercentageRate=100, feeInfo=[VisaPlanMatchResponse.FeeInfoDTO(type=CONSUMER_UPFRONT, ratePercentage=0, flatFee=0, monthlyRatePercentage=null), VisaPlanMatchResponse.FeeInfoDTO(type=CONSUMER, ratePercentage=840, flatFee=0, monthlyRatePercentage=70.0), VisaPlanMatchResponse.FeeInfoDTO(type=MERCHANT_FUNDING, ratePercentage=0, flatFee=0, monthlyRatePercentage=null), VisaPlanMatchResponse.FeeInfoDTO(type=MERCHANT_SERVICE, ratePercentage=10, flatFee=null, monthlyRatePercentage=null)], totalPlanCost=542000, totalFees=42000, totalUpfrontFees=0, totalRecurringFees=42000, currency=AED, firstInstallment=VisaPlanMatchResponse.InstallmentInfoDTO(amount=41667, upfrontFee=0, installmentFee=3500, totalAmount=45167, totalAmountExcludingUpfrontFee=45167), lastInstallment=VisaPlanMatchResponse.InstallmentInfoDTO(amount=41663, upfrontFee=null, installmentFee=3500, totalAmount=45163, totalAmountExcludingUpfrontFee=null)), vPlanID=550d287d-fb06-ef6d-1cbf-1c8714d44c01, fundedBy=[CONSUMER], vPlanIDRef=00000000H2, disclosure=null, promotionInfo=null)], merchantInfo=VisaPlanMatchResponse.MerchantInfoDTO(category=null, merchantReferenceID=null, partnerMerchantReferenceID=464400000001829)))",
